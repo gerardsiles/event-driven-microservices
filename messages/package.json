@@ -1,0 +1,23 @@
+{
+	"name": "messages",
+	"module": "app.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/app.ts"
+	},
+	"devDependencies": {
+		"bun-types": "latest",
+		"json-schema-to-ts": "^2.9.2",
+		"tsx": "^3.14.0",
+		"typescript": "^5.2.2"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"fastify": "^4.24.3",
+		"kafkajs": "^2.2.4",
+		"mongoose": "^8.0.0",
+		"nanoid": "^5.0.3"
+	}
+}
